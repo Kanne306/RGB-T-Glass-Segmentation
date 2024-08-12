@@ -106,7 +106,7 @@ def get_args_parser():
                         help='device to use for training / testing')
     parser.add_argument('--seed', default=42, type=int)
 
-    parser.add_argument('--resume',  default='checkpoint_rgbt.pth', help='resume from checkpoint')
+    parser.add_argument('--resume',  default='/home/kanne0630/thesis/rgbt/checkpoint_rgbt.pth', help='resume from checkpoint')
     parser.add_argument('--eval', default=True, action='store_true')
 
     # parser.add_argument('--resume', help='resume from checkpoint')
